@@ -1,0 +1,16 @@
+{
+  "name": "cat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://suneelam758.github.io/cats",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}

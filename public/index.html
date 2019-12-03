@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background: #058aa1;
+    }
+    .city{
+        background: url('http://evasantos.com/ilustraciones/gatoCity/edificiosOne.svg');
+        height: 300px;
+        width: 100%;
+        margin-top: 50px;
+        animation: city 90s infinite;
+    }
+    @keyframes city { 
+        from { background-position: 0 0; }
+        to { background-position: -8120px 0; }
+    }
+    #cat{
+    background: url('http://evasantos.com/ilustraciones/gatoCity/gatito.svg');
+    height: 297px; 
+    width: 507.5px;
+    margin-top: -380px;
+    margin-left: 2em;
+    animation: cat 1.2s steps(16,end) infinite;
+    }
+    @keyframes cat { 
+        from { background-position: 0 0; }
+        to { background-position: -8120px 0; }
+    }
+    .road{
+        background-image: url('road.jpg');
+        height: 355px;
+        width: 100%;
+        margin-top:-8px;
+        background-size: 100%;
+        animation: road 90s infinite;
+    }
+    @keyframes road { 
+        from { background-position: 0 0; }
+        to { background-position: -8120px 0; }
+    }
+        
+    
+
+</style>
+</head>
+<body>
+    <div class="city"></div>
+<div class="road"></div>
+<div id="cat"></div>
+
+</body>
+</html>
